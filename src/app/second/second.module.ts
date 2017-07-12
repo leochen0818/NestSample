@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SecondComponent } from './second.component';
 import { RouterModule } from '@angular/router';
-import { FourthComponent } from './fourth/fourth.component';
 
 @NgModule({
   imports: [
@@ -10,12 +9,10 @@ import { FourthComponent } from './fourth/fourth.component';
     RouterModule
   ],
   declarations: [
-    SecondComponent,
-    FourthComponent
+    SecondComponent
   ],
   exports: [
-    SecondComponent,
-    FourthComponent
+    SecondComponent
   ]
 })
 export class SecondModule { }
